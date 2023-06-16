@@ -5,7 +5,7 @@ const char* ssid1 = "NodeMCU01";
 const char* ssid2 = "NodeMCU02";
 const char* ssid3 = "NodeMCU03";
 
-// RSSI değerleri
+// RSSI değişkenleri
 int rssi1 = 0;
 int rssi2 = 0;
 int rssi3 = 0;
@@ -39,5 +39,5 @@ void loop() {
       Serial.println(rssi3);
     }
   }
-  delay(1000);
+  delay(500);
 }
